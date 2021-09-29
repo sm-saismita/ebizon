@@ -14,8 +14,8 @@ import {PLATFORM} from './src/styles/Typography';
 
 import { createStore, applyMiddleware, compose } from "redux";
 import createSagaMiddleware from "redux-saga";
-import { reducer } from "./src/store/sagas";
-import { watcherSaga } from "./src/store/action";
+import { reducer } from "./src/store/reducer";
+import { watcherSaga } from "./src/store/sagas";
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware();
