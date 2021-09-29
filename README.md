@@ -1,4 +1,4 @@
-# ebizon
+# ebizon - User Lists
 
 **Assignment:**
 **Create a simple app with a List View screen and Details View screen**
@@ -24,15 +24,28 @@
     else
         sudo apt install npm
 3) npm install –g react-native-cli
-4) sudo react-native init Ebizon
-5) react-native start
-6) react-native run-android
 
-4. Build application for android
+**Clone the app**
+
+1) Open Terminal.
+2) Type "git clone", and then paste the URL you copied.
+    e.g: git clone https://github.com/sm-saismita/ebizon
+3) Press Enter to create your local clone.
+
+**Run the App**
+
+1) After successfully clone the repo, install node_modules.
+    e.g: npm install
+
+2) react-native start
+3) react-native run-android
+
+**Build application for android**
+
   1) cd android
   2) ./gradlew clean
   3) ./gradlew assembleRelease
 
-Now the APK file will generate on build > output folder.
+Now the APK file will generate on android > app > build > outputs > apk folder.
 
 HAppy Coding :)
